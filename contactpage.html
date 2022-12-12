@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+    <link rel="stylesheet" href="my-brand.css">
+    <title>andelaMy</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="lo" id="log">M</div><span id="log">R</span>
+        </div>
+        <div>
+        <div>
+            <ul>
+                <li> <a href="my-brand.html">Home</a></li>
+                <li><a href="skillspage.html">Skills</a></li>
+                <li><a href="servicesgage.html">Services</a></li>
+                <li><a href="blogpage.html">Blog</a></li>
+                <li><a href="contactmepage.html">Contact me</a></li>
+                <button><a href="loginpage.html">Login</a></button>
+                
+            </ul>
+        </div>
+        <div class="menu" onclick="myFunction();">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <div class="contact">
+        <div class="contactme   ">
+            <h2 style="margin-top: 1rem;">Contact information</h2><br>
+            <p style="margin-left: 1rem;">Fill up the Contact me and my email and my location</p>
+           <div class="contactme-span">
+            <div>
+                <span class="material-icons-sharp"> phone </span> +250788848185
+            </div>
+            <div>
+                <span class="material-icons-sharp"> mail </span> mugisharemy2019@gmail.com
+            </div>
+            <div>
+                <span class="material-icons-sharp"> place </span> my Location
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15950.153334994699!2d30.060648218429996!3d-1.9370815318679042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca6a6c75c02d7%3A0x854b1d1486443601!2sKamutwa%2C%20Kigali!5e0!3m2!1sen!2srw!4v1670250361752!5m2!1sen!2srw" width="372" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+    </div>
+
+   <div class="contact-info">
+    <div class="cont-title"><h2 style="text-align: center;">Contact me</h2></div>
+    <form action="">
+        <div class="form">
+            <label >Email</label><br>
+            <input type="text" name="email" >
+        </div ><br>
+        <div class="form">
+            <label >All Name</label><br>
+            <input type="text" name="email">
+        </div><br>
+        <div class="form">
+            <label >Comment</label><br>
+           <textarea name="comment" id="" cols="20" rows="5"></textarea>
+        </div><br>
+        <div class="form">
+            <button>Submit</button>
+        </div>
+    </form>
+   </div>
+</div>
+   <br>
+   <footer>
+    <!--
+    <div class="logo">
+        <div class="lo" id="log">M</div><span id="log">R</span>
+    </div>
+    -->
+    <div class="footer-bar">
+        <span class="material-icons-sharp">copyright</span>Developed by Remy Mugisha
+    </div>
+</footer>
+<script type="text/javascript">
+    function myFunction(){
+        var navbar = document.getElementById('nav');
+        navbar.classList.toggle('show'); 
+    }
+</script>
+</body>
+</html>
